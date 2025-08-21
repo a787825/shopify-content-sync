@@ -1,0 +1,25 @@
+# env
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# keys
+*.key
+*.pem
+
+# system/runtime
+.DS_Store
+node_modules/
+dist/
+.build/
+
+# logs
+*.log
+npm-debug.log*
+node_modules/
+.env
+.env.*
+node_modules/
+.env
+.env.*
