@@ -1,7 +1,9 @@
 {
   "name": "shopify-content-sync",
   "version": "1.0.0",
-  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "pull": "node scripts/pull_shopify_articles.mjs",
     "import:notion": "node scripts/import_to_notion.mjs"
